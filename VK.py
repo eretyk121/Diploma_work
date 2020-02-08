@@ -88,24 +88,3 @@ groups_id = groups['response']['items']
 members = evgeny.get_members()
 final = evgeny.get_group_info()
 
-# print(members)
-# info = evgen.get_info()
-# print(info)
-
-# URL = 'https://api.vk.com/method/groups.get'
-# params = {
-#     'v': '5.52',
-#     'access_token': TOKEN,
-#     'user_id': 171691064
-# }
-# resp = requests.get(URL, params=params)
-# groups = resp.json()
-# groups_id = groups['response']['items']
-# print(groups_id)
-
-
-# pprint(p['response']['count'])
-# if p['response']['count'] == 4:
-#     print('Ura!!')
-# for fam in p['response']['items']:
-#     pprint(fam['last_name'])
