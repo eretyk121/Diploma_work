@@ -69,7 +69,7 @@ class User:
         params['filter'] = 'friends'
         group_list = []
         for id in groups_id:
-            print('получаю членов группы')
+            print('ищу группы без друзей...')
             params['group_id'] = id
 
             response = requests.get(
