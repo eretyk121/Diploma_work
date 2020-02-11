@@ -18,7 +18,7 @@ class User:
 
     def get_info(self):
         params = self.get_params()
-        params['user_id'] = 2705957
+        params['user_id'] = ID
         response = requests.get(
             'https://api.vk.com/method/users.get',
             params
